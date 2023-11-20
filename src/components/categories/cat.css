@@ -1,0 +1,62 @@
+.catcard{
+    width: 300px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.catcard:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.199);
+}
+.catcard img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px 7px 0 0;
+
+}
+.catcard .catcardbody{
+    padding: 25px;
+    background: white;
+    margin-top: -10px;
+    border-radius: 0 0 7px 7px;
+}
+.catcard .catcardbody h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: var(--light-text);
+}
+.catcard .catcardbody .icontime{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+.catcard .catcardbody .icontime p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.catcard .catcardbody .icontime .coloricon{
+    color: var(--primary);
+    font-size: 20px;
+}
+.catcard .catcardbody .icontime.rating{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--muted);
+    color: orange;
+    display: flex;
+}
+.catcard .catcardbody .icontime.rating span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.catcard .catcardbody .icontime.last{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.catcard .catcardbody .icontime.last div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

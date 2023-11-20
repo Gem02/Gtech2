@@ -1,0 +1,66 @@
+.apply{
+    padding: 100px;
+    background: linear-gradient(#e6e6e6, #c6f3f7,#e6e6e6);
+}
+.apply .top-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.apply .top-section p{
+    width: 100%;
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--light-text);
+}
+.apply .top-section .head{
+    font-size: 45px;
+    color: var(--dark-text);
+}
+.apply .description{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.apply .description .texts h2{
+    font-size: 22px;
+    color: var(--dark-text);
+    margin-bottom: 15px;
+}
+.apply .description .texts p{
+    line-height: 25px;
+    font-size: 17px;
+    color: var(--light-text);
+}
+.apply .button{
+    margin-top: 30px;
+}
+.apply .button button{
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background: var(--primary);
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+@media screen and (max-width:750px) {
+    .apply{
+        padding: 30px;
+    }
+}
+@media screen and (max-width:450px) {
+    .apply{
+        padding: 30px 15px;
+    }
+    .apply .top-section .head{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .apply .description{
+        flex-direction: column;
+    }
+}

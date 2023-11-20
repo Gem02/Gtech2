@@ -1,0 +1,50 @@
+.tutor{
+    width: 100%;
+    max-width: 250px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.185);
+    margin-top: 20px;
+    border-radius: 0 0 8px 8px;
+}
+.tutor .tutorimg img{
+    width: 100%;
+    border-radius: 3px 3px 0 0 ;
+}
+.tutor .tutorcontent{
+    padding: 15px;
+}
+.tutor .tutorcontent .head{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dark-text);
+    margin-top: 10px;
+}
+.tutor .tutorcontent .work{
+    font-size: 17px;
+    color: var(--light-text);
+    margin-top: 5px;
+}
+.tutor .tutorinfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 7px 0;
+    align-items: center;
+
+}
+.tutor .tutorinfo div{
+    display: flex;
+    align-items: center;
+}
+.tutor .tutorinfo .color{
+    color: orange;
+    font-size: 14px;
+}
+.tutor .tutorinfo span{
+    font-size: 13px;
+    color: var(--light-text);
+}
+.tutor .tutorinfo h2{
+    font-size: 13px;
+    margin-right: 5px;
+    color: var(--dark-text);
+}

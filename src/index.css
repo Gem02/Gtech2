@@ -1,0 +1,24 @@
+:root {
+    --font-family:  sans-serif;
+  
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    
+    --primary: #5f00d2;
+    --faint-primary : #754ffe;
+    --background: #f5f5f8;
+    --dark-text: #18113c;
+    --muted: #d3d1d0;
+    --light-text: #6e6a6b;
+  }
+  *{
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-snap-type: smooth;
+  }
+
+  body{
+    background-color: var(--background);
+  }
