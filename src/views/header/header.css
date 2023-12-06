@@ -1,11 +1,14 @@
 .header{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     background: var(--background);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+.header .learn{
+    margin-top: 130px;
 }
 .header h1{
     color: var(--dark-text);
@@ -26,7 +29,7 @@
     padding: 0 10px;
     font-weight: 600;
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
 }
 .header .header-buttons{
     display: flex;
